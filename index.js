@@ -27,10 +27,13 @@ function dec(n){
 }
 
 function makeInt(n){
-  if(parseInt(n)){
+  if(typeof(n) != "integer"){
     return parseInt(n)
   }else{
     return NaN
   }
+}
 
+function preserveDecimal(n){
+  
 }
