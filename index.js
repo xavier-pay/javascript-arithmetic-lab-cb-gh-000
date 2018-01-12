@@ -32,6 +32,5 @@ function makeInt(n){
   }else{
     return "returns NaN as appropriate"
   }
-  
-}
 
+}
